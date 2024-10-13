@@ -1,0 +1,15 @@
+// const [bg, setBg] = useState(false)
+
+    // <div className={`${bg ? 'flex justify-between items-center h-24 max-w-[1260px] mx-auto px-4 text-[#AFEEEE]' : 'flex justify-between items-center '}`}>
+    // useEffect(()=>{
+    //     window.addEventListener('scroll', () => {
+    //         return window.scrollY > 150 ? setBg(true) : setBg(false)
+    //     })
+    // })
+
+
+<Link to='/'> <li id="navlink" className="p-4 hover:font-semibold hover:text-lg hover:text-[#00df9a] hover:cursor-pointer ease-in-out duration-300" >Home</li></Link>
+            <Link to='/about'> <li id="navlink" className="p-4 hover:font-semibold hover:text-lg hover:text-[#00df9a] hover:cursor-pointer ease-in-out duration-300" >About</li></Link>
+            <Link to='/blog'> <li id="navlink" className="p-4 font-bold text-xl hover:font-semibold hover:text-2xl hover:text-[#00df9a] hover:cursor-pointer ease-in-out duration-300" >Blog</li></Link>
+            <Link to='/team'> <li id="navlink" className="p-4 hover:font-semibold hover:text-lg hover:text-[#00df9a] hover:cursor-pointer ease-in-out duration-300" >Team</li></Link>
+            <Link to='/contact'> <li id="navlink" className="p-4 hover:font-semibold hover:text-lg hover:text-[#00df9a] hover:cursor-pointer ease-in-out duration-300" >Contact</li></Link>
