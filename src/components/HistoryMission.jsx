@@ -2,12 +2,12 @@ import React from 'react'
 // import Slider1 from '../components/Slider1'
 
 const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
-import aboutpic1 = `${baseUrl}${process.env.ABOUT_ONE}`;
-import aboutpic2 = `${baseUrl}${process.env.ABOUT_TWO}`;
-import aboutpic3 = `${baseUrl}${process.env.ABOUT_THREE}`;
-import aboutpic4 = `${baseUrl}${process.env.ABOUT_FOUR}`;
-import aboutpic5 = `${baseUrl}${process.env.ABOUT_FIVE}`;
-import aboutpic6 = `${baseUrl}${process.env.ABOUT_SIX}`;
+const aboutpic1 = `${baseUrl}${process.env.ABOUT_ONE}`;
+const aboutpic2 = `${baseUrl}${process.env.ABOUT_TWO}`;
+const aboutpic3 = `${baseUrl}${process.env.ABOUT_THREE}`;
+const aboutpic4 = `${baseUrl}${process.env.ABOUT_FOUR}`;
+const aboutpic5 = `${baseUrl}${process.env.ABOUT_FIVE}`;
+const aboutpic6 = `${baseUrl}${process.env.ABOUT_SIX}`;
 const HistoryMission = () => {
   
   return (
