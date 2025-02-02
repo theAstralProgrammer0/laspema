@@ -6,7 +6,7 @@ import { TbLicense } from 'react-icons/tb'
 import { Link } from 'react-router-dom'
 
 const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
-import lekkiBridge = `${baseUrl}${process.env.LEKKI_BRIDGE}`;
+const lekkiBridge = `${baseUrl}${process.env.LEKKI_BRIDGE}`;
 const Welcome = () => {
   return (
     <div className="w-full h-screen bg-slate-200 flex flex-col justify-between py-20">

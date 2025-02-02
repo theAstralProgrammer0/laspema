@@ -26,44 +26,41 @@ import {
     FaShare,
 } from 'react-icons/fa'
 
-// feed images
-import Feed1 from "../assets/img 2.webp";
-import Feed2 from "../assets/img 3.webp";
-import Feed3 from "../assets/img 4.webp";
-import Feed4 from "../assets/Themes agenda critical.webp";
-import Feed5 from "../assets/Sanwo.jpg";
-import Feed6 from "../assets/Seasons Greetings from TPL D.jpg";
-import Feed7 from "../assets/img 1.webp";
-import Feed8 from "../assets/gm profile.JPG";
-import Feed9 from "../assets/GM LASPEMA pays courtesy visit to Lagos.webp";
 
-// report author images
-import reportAuthorImg1 from "../assets/img 4.webp";
-import reportAuthorImg2 from "../assets/Themes agenda critical.webp";
-import reportAuthorImg3 from "../assets/GM LASPEMA pays courtesy visit to Lagos.webp";
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
 
-// report images
-import reportImg1 from "../assets/gm profile.JPG";
-import reportImg2 from "../assets/Sanwo.jpg";
-import reportImg3 from "../assets/lekki bridge photo.jpeg";
+  const FreelancerBrandIcon = `${baseUrl}${process.env.ABOUT_FOUR}`;
+  const UpworkBrandIcon = `${baseUrl}${process.env.ABOUT_TWO}`;
+  const FiverBrandIcon = `${baseUrl}${process.env.ABOUT_THREE}`;
+  const BehanceBrandIcon = `${baseUrl}${process.env.ABOUT_ONE}`;
+  const DribbbleBrandIcon = `${baseUrl}${process.env.VISION_TWO}`;
 
-// skills images
-import SkillImg1 from "../assets/lekki bridge photo.jpeg";
-import SkillImg2 from "../assets/Governor Sanwo Olu HD.jpg";
-import SkillImg3 from "../assets/Bamgbose-Martins.jpg";
-import SkillImg4 from "../assets/GM LASPEMA pays courtesy visit to Lagos.webp";
-import SkillImg5 from "../assets/lekki bridge photo.jpeg";
-import SkillImg6 from "../assets/img 1.webp";
-import SkillImg7 from "../assets/img 2.webp";
-import SkillImg8 from "../assets/img 3.webp";
+  const reportAuthorImg1 = `${baseUrl}${process.env.VISION_ONE}`;
+  const reportAuthorImg2 = `${baseUrl}${process.env.MANDATE_TWO}`;
+  const reportAuthorImg3 = `${baseUrl}${process.env.MANDATE_ONE}`;
+  const reportImg1 = `${baseUrl}${process.env.LEKKI_BRIDGE}`;
+  const reportImg2 = `${baseUrl}${process.env.LASPEMA_LOGO}`;
+  const reportImg3 = `${baseUrl}${process.env.SA_ID}`;
 
+  const SkillImg1 = `${baseUrl}${process.env.ABOUT_SIX}`;
+  const SkillImg2 = `${baseUrl}${process.env.LEKKI_BRIDGE}`;
+  const SkillImg3 = `${baseUrl}${process.env.SA_ID}`;
+  const SkillImg4 = `${baseUrl}${process.env.ABOUT_FIVE}`;
+  const SkillImg5 = `${baseUrl}${process.env.ABOUT_TWO}`;
+  const SkillImg6 = `${baseUrl}${process.env.VISION_ONE}`;
+  const SkillImg7 = `${baseUrl}${process.env.VISION_TWO}`;
+  const SkillImg8 = `${baseUrl}${process.env.MANDATE_ONE}`;
 
-  // companies icons
-import FreelancerBrandIcon from "../assets/Governor Sanwo Olu HD.jpg";
-import UpworkBrandIcon from "../assets/Bamgbose-Martins.jpg";
-import FiverBrandIcon from "../assets/GM LASPEMA pays courtesy visit to Lagos.webp";
-import BehanceBrandIcon from "../assets/gm profile.JPG";
-import DribbbleBrandIcon from "../assets/img 1.webp";
+  const Feed1 = `${baseUrl}${process.env.ABOUT_THREE}`;
+  const Feed2 = `${baseUrl}${process.env.COMMISSIONER}`;
+  const Feed3 = `${baseUrl}${process.env.GM}`;
+  const Feed4 = `${baseUrl}${process.env.ABOUT_THREE}`;
+  const Feed5 = `${baseUrl}${process.env.ABOUT_THREE}`;
+  const Feed6 = `${baseUrl}${process.env.COMMISSIONER}`;
+  const Feed7 = `${baseUrl}${process.env.GM}`;
+  const Feed8 = `${baseUrl}${process.env.COMMISSIONER}`;
+  const Feed9 = `${baseUrl}${process.env.GM}`;
+
 
 
   // navigation

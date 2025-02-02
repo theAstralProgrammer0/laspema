@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
-import laspema_logo = `${baseUrl}${process.env.LASPEMA_LOGO}`;
+const laspema_logo = `${baseUrl}${process.env.LASPEMA_LOGO}`;
 const SignupForm = () => {
   return (
 
