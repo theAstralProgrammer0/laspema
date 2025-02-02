@@ -1,8 +1,9 @@
 import React from 'react'
 import { FaGoogle, FaLinkedinIn, FaApple } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import  laspema_logo  from '../assets/LASPEMA Logo Cropped.jpg'
 
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
+import  laspema_logo = `${baseUrl}${process.env.LASPEMA_LOGO}`;
 const LoginForm = () => {
   return (
     <div id='/login' className="bg-gradient-to-r from-slate-300 via-slate-400 to-slate-500 mt-6 mx-auto w-full max-w-md border border-slate-300 rounded-lg shadow-2xl">

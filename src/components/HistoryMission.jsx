@@ -1,12 +1,13 @@
 import React from 'react'
-import aboutpic1 from '../assets/about_laspema.jpg'
-import aboutpic2 from '../assets/img 3.webp'
-import aboutpic3 from '../assets/Sanwo.jpg'
-import aboutpic6 from '../assets/Themes agenda critical.webp'
-import aboutpic5 from '../assets/img 1.webp'
-import aboutpic4 from '../assets/img 2.webp'
 // import Slider1 from '../components/Slider1'
 
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
+import aboutpic1 = `${baseUrl}${process.env.ABOUT_ONE}`;
+import aboutpic2 = `${baseUrl}${process.env.ABOUT_TWO}`;
+import aboutpic3 = `${baseUrl}${process.env.ABOUT_THREE}`;
+import aboutpic4 = `${baseUrl}${process.env.ABOUT_FOUR}`;
+import aboutpic5 = `${baseUrl}${process.env.ABOUT_FIVE}`;
+import aboutpic6 = `${baseUrl}${process.env.ABOUT_SIX}`;
 const HistoryMission = () => {
   
   return (

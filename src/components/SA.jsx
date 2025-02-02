@@ -3,7 +3,8 @@ import { TfiLinkedin } from 'react-icons/tfi'
 import SAQuoteCard from './SAQuoteCard'
 
 
-const sa_url = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}${process.env.SA_ID}`;
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`
+const sa_url = `${baseUrl}${process.env.SA_ID}`;
 const SA = () => {
   return (
     <div className="w-full bg-slate-200 py-16 px-4 ">

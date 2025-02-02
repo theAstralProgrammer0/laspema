@@ -1,8 +1,9 @@
 import React from 'react'
-import governor from '../assets/Governor Sanwo Olu HD.jpg'
 import { TfiLinkedin } from 'react-icons/tfi'
 import GovQuoteCard from './GovQuoteCard'
 
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
+const governor = `${baseUrl}${process.env.VISION_TWO}`;
 const Governor = () => {
   return (
     <div className="w-full bg-slate-200 py-16 px-4 ">

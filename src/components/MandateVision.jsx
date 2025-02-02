@@ -1,9 +1,10 @@
 import React from 'react'
-import mandatepic1 from '../assets/GM LASPEMA pays courtesy visit to Lagos.webp'
-import mandatepic2 from '../assets/Babajide_Sanwo-Olu-laspema-site.webp'
-import visionpic1 from '../assets/Lagos_Informal_sector-scaled.webp'
-import visionpic2 from '../assets/Governor Sanwo Olu HD.jpg'
 
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
+const mandatepic1 = `${baseUrl}${process.env.MANDATE_ONE}`;
+const mandatepic2 = `${baseUrl}${process.env.MANDATE_TWO}`;
+const visionpic1 = `${baseUrl}${process.env.VISION_ONE}`;
+const visionpic2 = `${baseUrl}${process.env.VISION_TWO}`;
 const MandateVision = () => {
   return (
     <div className="w-full bg-slate-200 pb-12">

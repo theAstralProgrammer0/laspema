@@ -1,10 +1,10 @@
 import React from 'react'
-import locationBckg from '../assets/lekki bridge photo.jpeg'
-// import { GrLocation } from 'react-icons/gr'
 import { TfiArrowRight } from 'react-icons/tfi'
 import { TfiLocationPin } from 'react-icons/tfi'
 
 
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
+const locationBckg = `${baseUrl}${process.env.LEKKI_BRIDGE}`;
 const Location = () => {
   return (
     <div className="bg-slate-200 w-full h-screen ">

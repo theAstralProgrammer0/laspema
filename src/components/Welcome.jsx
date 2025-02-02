@@ -1,11 +1,12 @@
 import React from 'react'
-import lekkiBridge from '../assets/lekki bridge photo.jpeg'
 import { BsEyeFill } from 'react-icons/bs'
 import { SiSimpleanalytics } from 'react-icons/si'
 import { ImDatabase } from 'react-icons/im'
 import { TbLicense } from 'react-icons/tb'
 import { Link } from 'react-router-dom'
 
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
+import lekkiBridge = `${baseUrl}${process.env.LEKKI_BRIDGE}`;
 const Welcome = () => {
   return (
     <div className="w-full h-screen bg-slate-200 flex flex-col justify-between py-20">

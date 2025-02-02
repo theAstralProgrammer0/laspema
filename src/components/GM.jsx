@@ -1,8 +1,9 @@
 import React from 'react'
-import gm from '../assets/rsz_1pops.jpg'
 import { TfiLinkedin } from 'react-icons/tfi'
 import GMQuoteCard from './GMQuoteCard'
 
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
+const gm from = `${baseUrl}${process.env.GM}`;
 const GM = () => {
   return (
     <div className="w-full bg-slate-200 py-16 px-4">

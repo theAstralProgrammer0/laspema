@@ -1,8 +1,9 @@
 import React from 'react'
 import { TfiLinkedin } from 'react-icons/tfi'
-import commisioner from '../assets/rsz_bamgbose-martins.jpg'
 import CommissionerQuoteCard from './CommissionerQuoteCard'
 
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
+const commisioner = `${baseUrl}${process.env.COMMISSIONER}`;
 const Commissioner = () => {
   return (
     <div className="w-full bg-slate-200 py-16 px-4 ">

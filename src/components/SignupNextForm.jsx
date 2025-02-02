@@ -1,8 +1,9 @@
 import React from 'react'
-import laspema_logo from '../assets/LASPEMA Logo Cropped.jpg'
 import { Link } from 'react-router-dom';
 import { TfiArrowCircleLeft } from 'react-icons/tfi'
 
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
+const laspema_logo = `${baseUrl}${process.env.LASPEMA_LOGO}`;
 const SignupNextForm = () => {
   return (
     <div className="bg-gradient-to-r from-slate-300 via-slate-400 to-slate-500 p-[5%]">

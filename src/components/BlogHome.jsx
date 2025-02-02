@@ -1,16 +1,5 @@
 import React from 'react'
-// import { useState, useEffect } from 'react'
-// import { TfiClose, TfiMenuAlt } from 'react-icons/tfi'
-// // import { AiFillCLoseCircles } from 'react-icons/ai'
-// import { Link, Route, Routes } from 'react-router-dom'
-// // import { Link as LinkRoll } from 'react-scroll'
-// import { BlogSidebar  } from '../components/BlogSidebar'
-// import {blogReportData} from '../utils/blogData'
 import BlogFeed from '../components/BlogFeed'
-
-// import logo from '../assets/LASPEMA Logo Cropped.jpg'
-
-
 
 
 const BlogHome = () => {

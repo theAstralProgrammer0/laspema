@@ -1,11 +1,12 @@
 import React from 'react'
 import Typed from 'react-typed'
-import laspema_logo from '../assets/LASPEMA Logo Cropped.jpg'
-import backgroundVideo from '../assets/DJI_0215.MP4'
 import { Link as LinkRoll } from 'react-scroll'
 import { Link } from 'react-router-dom'
 
 
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`; 
+const laspema_logo = `${baseUrl}${process.env.LASPEMA_LOGO}`;
+const backgroundVideo = `${baseUrl}${process.env.BACKGROUND_VIDEO}`;
 const Hero = () => {
   return (
     <div className="h-screen w-screen relative">

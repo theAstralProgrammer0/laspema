@@ -1,6 +1,7 @@
 import React from 'react'
-import  laspema_logo  from '../assets/LASPEMA Logo Cropped.jpg'
 
+const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`;
+const laspema_logo = `${baseUrl}${process.env.LASPEMA_LOGO}`;
 const LicenseForm = () => {
   return (
     <div className="bg-slate-200 p-9 md:pt-[180px]">
