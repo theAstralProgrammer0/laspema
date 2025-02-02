@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 
 
 const baseUrl = `${process.env.REACT_APP_GOOGLE_DRIVE_BASE_URL}`; 
-const laspema_logo = `${baseUrl}${process.env.LASPEMA_LOGO}`;
-const backgroundVideo = `${baseUrl}${process.env.BACKGROUND_VIDEO}`;
+const laspema_logo = `${baseUrl}${process.env.REACT_APP_LASPEMA_LOGO}`; 
+const backgroundVideo = `${baseUrl}${process.env.REACT_APP_BACKGROUND_VIDEO}`;
 const Hero = () => {
   return (
     <div className="h-screen w-screen relative">
