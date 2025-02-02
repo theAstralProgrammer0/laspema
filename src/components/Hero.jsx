@@ -1,5 +1,5 @@
 import React from 'react'
-import Typed from 'react-typed'
+import { ReactTyped } from 'react-typed'
 import { Link as LinkRoll } from 'react-scroll'
 import { Link } from 'react-router-dom'
 
@@ -23,7 +23,7 @@ const Hero = () => {
                     <p className="md:text-xl sm:text-lg text:base text-[#000300] font-serif p-2 py-2">
                     Determination of the Locations for Urban Furniture, Infrastructural Facilities and Centres of Economic Activities in the State
                     </p>
-                    <Typed className="md:text-xl sm:text-lg text:base text-[#000300] font-semibold p-2" 
+                    <ReactTyped className="md:text-xl sm:text-lg text:base text-[#000300] font-semibold p-2" 
                     strings={['+2348026447595', 'info@laspema.ng']}
                     typeSpeed={100}
                     backSpeed={120}
